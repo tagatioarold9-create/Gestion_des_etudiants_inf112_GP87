@@ -18,6 +18,7 @@ typedef struct Produit {
  char numero_de_serie[20];
  double prix;
  time_t date_peremption;
+ int etat;
  struct Produit *suivant;
 } Produit;
 
